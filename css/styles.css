@@ -258,6 +258,11 @@ p {
 .h4w {
   margin: 0;
 }
+.divSearch {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70%;
+  width: 30%;
+}
 
 @media screen and (max-width:1439px) {
   #container {
@@ -311,11 +316,11 @@ p {
     padding-bottom: 60.9%;
   }
 
-  .divSearch {
+  /* .divSearch {
     font-family: 'Montserrat', sans-serif;
     font-size: 50%;
     width: 50%;
-  }
+  } */
 }
 
 @media screen and (max-width:711px) {
@@ -358,11 +363,11 @@ p {
     padding-bottom: 230.6%;
   }
 
-  .divSearch {
+  /* .divSearch {
     font-family: 'Montserrat', sans-serif;
     font-size: 20%;
     width: 30%;
-  }
+  } */
 
   .searchButton {
     padding: 2px 8px 2px 8px;
