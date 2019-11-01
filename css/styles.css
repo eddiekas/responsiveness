@@ -1,45 +1,34 @@
-body{
+body {
   margin: 0;
   background-color: #e6e6fa;
-  /* background-color: red; */
-
 }
 
-#container{
+#container {
   width: 1440px;
   margin: 0 auto;
-
 }
-#drive{
+
+#drive {
   width: 300px;
   float: left;
   background-color: #fffafa;
-
   padding-top: 1%;
   line-height: 1.8;
-  /* text-indent: 0; */
-  border-top-left-radius:5%;
+  border-top-left-radius: 5%;
   border-bottom-left-radius: 5%;
-  /* text-align: center; */
-
-
-
   text-indent: 10%;
-
   padding-bottom: 10.2%;
-
 }
-#recentlyUsed{
+
+#recentlyUsed {
   width: 900px;
   float: left;
   background-color: #e6e6fa;
   padding-top: 1%;
   padding-bottom: 1%;
-        /* position: relative; */
-
 }
 
-#statistic{
+#statistic {
   width: 240px;
   float: left;
   background-color: #fffafa;
@@ -48,175 +37,121 @@ body{
   border-top-right-radius: 5%;
   border-bottom-right-radius: 5%;
   padding-bottom: 9.85%;
-
 }
 
-
-
-/* .divArrows{
-  position: absolute;
-  left: 30px;
-  padding-top: 2%;
-}
-
-.divButn2{
-  position: absolute;
-  right: 30px;
-  padding-top: 2%;
-} */
-
-
-
-
-
-.userImage{
+.userImage {
   width: 30%;
   float: left;
   margin-right: 2%;
   border-radius: 50%;
 }
 
-
-.divImages{
+.divImages {
   padding: 0;
   margin: 0;
-
 }
 
-.imgImages{
+.imgImages {
   width: 24%;
-  /* margin: 1%; */
 }
 
-.ulImages{
+.ulImages {
   list-style-type: none;
   padding-left: 1%;
-
 }
 
-li{
+li {
   display: inline;
-
 }
-.divBoxes{
+
+.divBoxes {
   padding: 0;
   margin: 0;
-
-}
-.myDrive{
-  color: #6a5acd	;
 }
 
-.filesMyPlaces{
+.myDrive {
+  color: #6a5acd;
+}
+
+.filesMyPlaces {
   font-size: 60%;
-  color: #d3d3d3	;
+  color: #d3d3d3;
 }
 
-
-
-
-h2{
+h2 {
   font-family: 'Merriweather Sans', sans-serif;
-  /* font-size: 1.5vw; */
-  color: #6a5acd	;
-
+  color: #6a5acd;
 }
-h3{
+
+h3 {
   font-family: 'Merriweather Sans', sans-serif;
-  /* font-size: 1.2vw; */
 }
 
-h4{
+h4 {
   font-family: 'Montserrat', sans-serif;
-  /* font-size: 1.15vw; */
-
 }
-h5{
+
+h5 {
   font-family: 'Montserrat', sans-serif;
-  /* font-size: 1.1vw; */
-
 }
 
-.h4Drive{
+.h4Drive {
   font-size: 70%;
 }
 
-.h4s{
-  /* font-size: 0.8vw; */
+.h4s {
   margin: 0;
   font-size: 80%;
 }
 
-.h5p{
-  /* font-size: 1vw; */
+.h5p {
   color: #d3d3d3;
   margin: 0;
   font-size: 70%
 }
 
-.h5U{
+.h5U {
   color: #d3d3d3;
-
 }
 
-/* .h4Statistic{
-  text-indent: -55%;
-
-} */
-
-.h2Newfiles{
+.h2Newfiles {
   margin-left: 5%;
 }
 
-
-p{
+p {
   font-family: 'Montserrat', sans-serif;
-  /* font-size: 1.2vw; */
 }
 
-.content{
+.content {
   font-size: 70%;
 }
 
-/* .h2Newfiles{
-  font-family: 'Merriweather Sans', sans-serif;
-   display: inline;
-} */
-
-.buttonView{
-  /* display: inline; */
-  /* position: absolute;
-  right:0; */
-}
-.tableFirst{
+.tableFirst {
   table-layout: auto;
   width: 100%;
   font-family: 'Montserrat', sans-serif;
   font-size: 70%;
-  /* font-size: 1.1vw; */
-
 }
-.circularImages{
+
+.circularImages {
   width: 3.125rem;
   height: 3.125rem;
   border-radius: 50%;
-
 }
 
-.mainDivBoxes{
+.mainDivBoxes {
   text-align: center;
-
 }
 
-.divBoxes{
+.divBoxes {
   width: 150px;
   height: 150px;
   border-radius: 10%;
   background-color: #d3d3d3;
   display: inline-block;
   text-align: left;
-
 }
+
 .searchButton {
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
@@ -239,7 +174,7 @@ p{
   text-decoration: none;
 }
 
-  .butn1 {
+.butn1 {
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
@@ -261,7 +196,7 @@ p{
   text-decoration: none;
 }
 
- .butn2 {
+.butn2 {
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
@@ -273,7 +208,6 @@ p{
   text-decoration: none;
   float: right;
   margin-right: 5%
-
 }
 
 .butn2:hover {
@@ -285,7 +219,6 @@ p{
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
 }
-
 
 .buttonView {
   -webkit-border-radius: 5;
@@ -306,253 +239,130 @@ p{
   text-decoration: none;
 }
 
-.div1{
-  background-color: #e6e6fa			;
-  /* width: auto; */
+.div1 {
+  background-color: #e6e6fa;
   padding: 0;
   margin: 0 8% 0 8%;
   border-radius: 5%;
   font-size: 70%;
-
 }
-/* .h4float{
-  float: left;
-}
-.circle{
-  float: left;
-}
-.h5float{
-  float: left;
-} */
 
-
-.secUserImage{
+.secUserImage {
   width: 95%;
-
 }
 
-.userImage{
+.userImage {
   width: 65%;
-
 }
 
-
-
-/* .circle{
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: red;
-  text-align: center;
-  border-width:thick;
-  border-color: black;
-  border-radius: solid;
-} */
-
-
-
-
-/* .wrapper{
-  background-color: yellow;
-
-} */
-
-.h4w{
+.h4w {
   margin: 0;
 }
 
-/* .wrapper{
-  background-color: green;
-
-} */
-
-
 @media screen and (max-width:1439px) {
-  #container{
+  #container {
     width: 100%;
   }
 
-  #drive{
-    width:20%;
-
+  #drive {
+    width: 20%;
   }
 
-  #recentlyUsed{
+  #recentlyUsed {
     width: 55%;
-
   }
 
-  #statistic{
+  #statistic {
     width: 25%;
   }
 
-  .imgImages{
+  .imgImages {
     width: 24%;
-
   }
-
-
 }
 
 @media screen and (max-width:1230px) {
-  .imgImages{
+  .imgImages {
     width: 24%;
-
   }
-
-
 }
 
 @media screen and (max-width:1112px) {
-  .divBoxes{
+  .divBoxes {
     width: 24%;
-
   }
-
-
-
 }
 
-
 @media screen and (max-width:768px) {
-  .imgImages{
+  .imgImages {
     width: 49%;
-
   }
-  .divBoxes{
+
+  .divBoxes {
     width: 49%;
     margin-bottom: 2%;
-
   }
 
-  #drive{
+  #drive {
     padding-bottom: 68.8%;
-
   }
-  #statistic{
+
+  #statistic {
     padding-bottom: 60.9%;
-
   }
 
-
-
-
-
-
-                /* .secUserImage{
-                  width: 95%;
-                }
-                .userImage{
-                  width: 70%;
-
-                } */
-
-  /* .mainDivBoxes{
-    margin: 1%;
-  } */
-
-
+  .divSearch {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50%;
+  }
 }
 
 @media screen and (max-width:711px) {
-
-  .divTable{
-   overflow:auto;
-
- }
- /* .secUserImage{
-   width: 95%;
- }
- .userImage{
-   width: 70%;
-
- } */
- /* .h4Statistic{
-   text-indent: -35%;
-
-  } */
-
-
+  .divTable {
+    overflow: auto;
+  }
 }
 
-/* @media screen and (max-width:520px) {
-  .h4s{
-    width: 50%;
-
-  }
-
-
-
-} */
-
-
-
-
-
 @media screen and (max-width:480px) {
-  .imgImages{
+  .imgImages {
     width: 80%;
   }
-  .divImages{
-  text-align: center;
 
+  .divImages {
+    text-align: center;
   }
-  .divBoxes{
+
+  .divBoxes {
     width: 80%;
     margin-bottom: 2%;
   }
 
-  .h4s{
-    /* font-size: 0.8vw; */
+  .h4s {
     margin: 0;
     font-size: 60%;
   }
 
-  .h5p{
-    /* font-size: 1vw; */
+  .h5p {
     color: #d3d3d3;
     margin: 0;
     font-size: 50%
   }
 
-  #drive{
+  #drive {
     padding-bottom: 247.3%;
     text-indent: 2%;
-
-  }
-  #statistic{
-    padding-bottom: 226.6%;
-
   }
 
-
-
-
-
-
-                                  /* #drive{
-                                    line-height: 4;
-
-                                  }
-                                  #statistic{
-                                    line-height: 2;
-
-                                  } */
-  /* .secUserImage{
-    width: 95%;
+  #statistic {
+    padding-bottom: 230.6%;
   }
-  .userImage{
-    width: 70%;
 
-  }*/
+  .divSearch {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20%
+  }
 
-  /* .h4Statistic{
-    text-indent: -15%; */
-
-
-
-/* use line height on individual my designs and my file e.g to reduce line height between the  same word */
-
-
-
+  .searchButton {
+    padding: 2px 8px 2px 8px;
+  }
 }
